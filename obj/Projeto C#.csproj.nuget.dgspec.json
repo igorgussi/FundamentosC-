@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IgorGussi\\Desktop\\FundamentosC#\\Projeto C#.csproj": {}
+    "C:\\workspace\\FundamentosCSharp\\Projeto C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IgorGussi\\Desktop\\FundamentosC#\\Projeto C#.csproj": {
+    "C:\\workspace\\FundamentosCSharp\\Projeto C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IgorGussi\\Desktop\\FundamentosC#\\Projeto C#.csproj",
+        "projectUniqueName": "C:\\workspace\\FundamentosCSharp\\Projeto C#.csproj",
         "projectName": "Projeto C#",
-        "projectPath": "C:\\Users\\IgorGussi\\Desktop\\FundamentosC#\\Projeto C#.csproj",
+        "projectPath": "C:\\workspace\\FundamentosCSharp\\Projeto C#.csproj",
         "packagesPath": "C:\\Users\\IgorGussi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IgorGussi\\Desktop\\FundamentosC#\\obj\\",
+        "outputPath": "C:\\workspace\\FundamentosCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IgorGussi\\AppData\\Roaming\\NuGet\\NuGet.Config",
