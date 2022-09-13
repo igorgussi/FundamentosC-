@@ -31,5 +31,11 @@ namespace Fundamentos.Models
             resultado = x * y;
             Console.WriteLine($"{x} * {y} = {resultado.ToString("0.00")}");
         }
+
+        public void Potencia (double x, double y)
+        {
+          double resultado = Math.Pow(x, y); //Utilizado para calcular potência
+          Console.WriteLine($"Potencia: \n {x}^{y} = {resultado}");
+        }
     }
 }

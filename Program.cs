@@ -8,9 +8,9 @@ string operacao;
 
 Console.WriteLine ("Digite o primeiro numero: ");
 x = Convert.ToDouble (Console.ReadLine());
-Console.WriteLine("Selecione a operação desejada: \n + --> Soma\n - --> Subtração\n / --> Divisão\n * --> Multiplicação");
+Console.WriteLine("\nSelecione a operação desejada: \n + --> Soma\n - --> Subtração\n / --> Divisão\n * --> Multiplicação\n ^ --> Potência");
 operacao = Console.ReadLine();
-Console.WriteLine ("Digite o segundo numero: ");
+Console.WriteLine ("\nDigite o segundo numero: ");
 y = Convert.ToDouble (Console.ReadLine());
 
 switch (operacao){
@@ -28,6 +28,10 @@ switch (operacao){
 
     case "/":
     calc.Dividir(x, y);
+    break;
+
+    case "^":
+    calc.Potencia(x, y);
     break;
 
     default:
