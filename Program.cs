@@ -1,5 +1,113 @@
 ﻿using Fundamentos.Models;  //Mostrando o namespace ao qual as classes estão
 
+//Estruturas de repetição 
+
+
+
+//Menu interativo 
+/*
+String opc = "";
+
+while(true){
+    
+    Console.WriteLine("Digite a sua opção: \n");
+    Console.WriteLine("1- Cadastrar Cliente\n ");
+    Console.WriteLine("2- Buscar Cliente\n ");
+    Console.WriteLine("3- Excluir Cliente\n ");
+    Console.WriteLine("4- Encerrar\n ");
+
+    opc = Console.ReadLine();
+
+    switch (opc)
+    {
+        case "1":
+        Console.WriteLine("Cadaastro de Cliente");
+        break;
+
+        case "2":
+        Console.WriteLine("Buscar Cliente");
+        break;
+
+        case "3":
+        Console.WriteLine("Excluir Cliente");
+        break;
+
+        case "4":
+        Console.WriteLine("Encerrando...");
+        Environment.Exit(0); //Para encerrar o programa
+        break;
+
+        default:
+        Console.WriteLine("Opção inválida!");
+        break;
+    }
+}
+*/
+
+
+
+
+
+//do while
+/*
+int soma = 0, numero = 0;
+
+do{
+    Console.WriteLine("Digite um numero (0 para parar)");
+    numero = Convert.ToInt32(Console.ReadLine());
+
+    soma += numero; // ------> soma = soma + numero
+
+}while(numero != 0);
+
+Console.WriteLine($"Total da soma dos numeros digitados é: {soma}");
+*/
+
+
+
+
+
+/*
+//While 
+int numero;
+int cont = 0; //a posição inicial da variavel contador é declarada préviamente
+
+Console.WriteLine("Digite o número da tabuada que deseja: ");
+numero = Convert.ToInt32(Console.ReadLine());
+
+while(cont <= 10){
+    Console.WriteLine($"{numero} * {cont} = {numero * cont}");
+    cont++; // a incrementação é passada dentro do while
+
+    if (cont == 6){
+        break; //utilizando para interroper o fluxo de execução quando o contador atingir  a 6(sexta) Execução
+    }
+}
+*/
+
+
+
+
+/*
+//for 
+int numero;
+Console.WriteLine("Digite o número da tabuada que deseja: ");
+numero = Convert.ToInt32(Console.ReadLine());
+
+//   inicio        parada      incremento/decremento 
+for(int cont = 0; cont <= 10; cont++){
+    Console.WriteLine($"{numero} * {cont} = {numero * cont}");
+}
+*/
+
+
+
+
+
+
+
+
+
 //Criando uma calculadora 
 /*
 Calculadora calc = new Calculadora();
@@ -64,7 +172,8 @@ switch (operacao){
 
     case "0":
     Console.WriteLine("Obrigado, até mais!");
-    Console.ReadKey();
+    Console.WriteLine("Encerrando...");
+    Environment.Exit(0); //Para encerrar o programa
     break;
 
     default:
@@ -72,6 +181,10 @@ switch (operacao){
     break;
 }
 */
+
+
+
+
 
 
 //Switch Case
