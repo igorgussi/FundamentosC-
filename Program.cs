@@ -1,6 +1,7 @@
 ﻿using Fundamentos.Models;  //Mostrando o namespace ao qual as classes estão
 
 //Criando uma calculadora 
+/*
 Calculadora calc = new Calculadora();
 double x = 0, y = 0;
 string operacao;
@@ -70,7 +71,7 @@ switch (operacao){
     Console.WriteLine($"Operação '{operacao}' não pode ser encontrada!");
     break;
 }
-
+*/
 
 
 //Switch Case
